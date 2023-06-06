@@ -4,9 +4,11 @@ import requests
 
 from typing import Optional
 
-API_URL = ''
+URL = 'http://localhost/'
 AUTH_TOKEN = ''
 DEFAULT_JSON_FILE_PATH = 'dashboards.txt'
+
+API_URL = URL + 'api/dashboards/db'
 
 
 def load_data_from_json(url: str) -> dict:

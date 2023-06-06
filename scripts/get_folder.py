@@ -1,8 +1,10 @@
 import logging
 import requests
 
-API_URL = ''
+URL = 'http://localhost/'
 AUTH_TOKEN = ''
+
+API_URL = URL + 'api/folders'
 
 
 def get_folders() -> None:
